@@ -1,0 +1,25 @@
+.loadMoreBtn {
+    display: flex;
+    margin: 30px auto;
+    padding: 12px 50px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: white;
+    background: crimson;
+    border-radius: 50px;
+    border: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.loadMoreBtn:hover {
+    box-shadow: 5px 5px 10px red, -5px -5px 10px red;
+    background: linear-gradient(145deg, #d6d6d6, #f0f0f0);
+    color: crimson;
+}
+
+.loadMoreBtn:active {
+    box-shadow: inset 5px 5px 10px #b8b8b8, inset -5px -5px 10px #ffffff;
+}

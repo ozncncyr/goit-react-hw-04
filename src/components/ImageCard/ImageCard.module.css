@@ -1,0 +1,25 @@
+.card {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    border-radius: 8px;
+    transition: box-shadow 0.2s ease, transform 0.4s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 7px 7px 14px crimson;
+}
+
+.card img {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    transition: transform 0.4s ease;
+}
+
+.card img:hover {
+    transform: scale(1.1);
+}
