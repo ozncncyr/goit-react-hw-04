@@ -1,16 +1,29 @@
 .errorMessage {
-    background-color: #ce392e;
-    color: white;
+    background-color: #f0857d5b;
+    color: crimson;
     padding: 15px;
-    border-radius: 5px;
+    border-radius: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     margin: 20px;
     position: fixed;
-    top: 50px;
+    top: -12px;
     right: 20px;
     z-index: 999;
+    animation: slideInFromRight 0.5s ease-in-out;
+
+
 }
+@keyframes slideInFromRight {
+    0% {
+        right: -300px;
+    }
+
+    100% {
+        right: 20px;
+    }}
 
 .errorMessage p {
     margin: 0;
-    font-size: 16px; }
+    font-size: 16px;
+    font-weight: bold;
+}

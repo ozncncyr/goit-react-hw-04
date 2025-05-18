@@ -50,6 +50,9 @@ const App = () => {
     if (!newQuery.trim()) {
       setError("Don't be lazy, enter something!");
       return;
+    } else if (newQuery === query) {
+      setError("Are u dumb or something? Search something else!");
+      return;
     }
     setQuery(newQuery);
     setImages([]);
